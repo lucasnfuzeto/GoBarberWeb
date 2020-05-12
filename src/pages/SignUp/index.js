@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 
 import logo from '~/assets/logo.svg';
 
-import { signUpRequest } from '~/store/modelus/auth/actions';
+import { signUpRequest } from '~/store/modules/auth/actions';
 
 const schema = Yup.object().shape({
   name: Yup.string().required('O nome é obrigatório'),
