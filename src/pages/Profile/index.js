@@ -23,6 +23,7 @@ export default function Profile() {
 
   return (
     <Container>
+      <strong>Meu Perfil</strong>
       <Form initialData={profile} onSubmit={handleSubmit}>
         <AvatarInput name="avatar_id" />
 
